@@ -1,0 +1,80 @@
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Apple Symbols;
+}
+
+
+
+header {
+	font-weight: bold;
+	font-family: Phosphate;
+}
+
+#main-header {
+	font-size: 60px;
+}
+
+/*logo*/
+
+.logo{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+
+
+/*title*/
+#header-name {
+	font-size: 40px;
+	color: #EB7D23;
+	padding: 15px;
+	margin: 8px 0px 15px 0px;
+
+}
+
+/*search*/
+#search {
+	float: right;
+	padding: 5px;
+	margin:10px 10px 0px 0px;
+}
+
+
+/* banner section*/
+#main-image{
+	float:left;
+	width: 100%;
+	height: 25%;
+
+}
+
+
+/*welcome text*/
+
+#welcome {
+	float: left;
+	width: 70%;
+	font-size: 12px;
+	margin: 20px 0px 0px 0px;
+}
+
+#welcome > header {
+	color:#EB7D23;
+	font-size: 15px;
+	font-weight: bold;
+	margin:bottom;
+}
+
+
+
+
+
+
+
+
