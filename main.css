@@ -71,9 +71,52 @@ header {
 	margin:bottom;
 }
 
+#products {
+	text-align: justify;
+}
+
+#products img {
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	border-radius: 200px;
+}
+
+#products:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+/* #backpack{
+	object-fit: cover;
+  	width:230px;
+  	height:230px;
+  	border-radius: 300px;
+  	float: left;
+}
+
+#shoes{
+	object-fit: cover;
+  	width:230px;
+  	height:230px;
+  	border-radius: 300px;
+  	float: right;
+  	margin: 20px 500px 200px 200px;
+}
+
+*/
 
 
 
