@@ -12,14 +12,17 @@ body{
 
 header {
 	font-weight: bold;
+	padding: 200px 0px 0px 0px;
 	/*font-family:'Raleway', sans-serif;*/
 
 }
 
-span {
-	text-align: right;
-
+.titleText {
+	height: 200px;
+	width: 1000px;
+	padding: 50px 0px 0px 0px;
 }
+
 
 .module {
   background: 
@@ -163,6 +166,31 @@ span {
 
 }
 
+.photoSection {
+	height: 300px;
+	width: 1000px;
+
+}
+
+#shoes {
+	float: left;
+	vertical-align: middle;
+} 
+
+#tents {
+	float: left;
+	vertical-align: middle;
+}
+
+#food {
+	float: left;
+	vertical-align: middle;
+}
+
+#productText {
+	padding: 125px 10px 0px 50px;
+	/*vertical-align: center;*/
+}
 
 /*#products:after {
 	content: '';
@@ -171,12 +199,7 @@ span {
 	float: left;
 }*/
 
-/*.shoes p{
-	float: right;
 
-
-}
-*/
 
 /*p {
 	float:right;
