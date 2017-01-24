@@ -16,6 +16,11 @@ header {
 
 }
 
+span {
+	text-align: right;
+
+}
+
 .module {
   background: 
     linear-gradient(
