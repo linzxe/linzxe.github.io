@@ -11,6 +11,12 @@ body {
 body {
   font-family: 'Raleway', sans-serif;
 }
+.squaretext {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif !important;
+
+}
 
 hr {
   border-color: #b45a5a ;
