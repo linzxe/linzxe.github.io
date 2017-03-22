@@ -16,6 +16,22 @@ hr {
   border-width: 3px;
   max-width: 50px;
 }
+.square {
+  float: left;
+  width: 30%;
+  padding-bottom: 30%;
+  position: relative;
+  margin: 1.66%;
+  overflow:hidden;
+  background-color: #c88787;
+}
+.scontent {
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  padding: 10% 5%;
+
+}
 hr.light {
   border-color: white;
 }
