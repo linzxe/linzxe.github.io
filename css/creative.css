@@ -19,10 +19,33 @@ body {
 body {
   font-family: 'Raleway', sans-serif;
 }
+.squaretext {
+  text-align: right;
+  color: white;
+  font-family: 'Raleway', sans-serif !important;
+
+}
+
 hr {
   border-color: #b45a5a ;
   border-width: 3px;
   max-width: 50px;
+}
+.square {
+  float: left;
+  width: 30%;
+  padding-bottom: 30%;
+  position: relative;
+  margin: 1.66%;
+  overflow:hidden;
+  background-color: #c88787;
+}
+.scontent {
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  padding: 10% 5%;
+
 }
 hr.light {
   border-color: white;
@@ -44,6 +67,7 @@ h4,
 h5,
 h6 {
 font-family: 'Playfair Display', serif;
+
 }
 p {
   font-size: 18px;
@@ -72,8 +96,8 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+/*  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);*/
 font-family: 'Playfair Display SC', serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -118,7 +142,7 @@ font-family: 'Playfair Display SC', serif;
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: transparent !important;
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -169,17 +193,21 @@ header {
   text-align: center;
   color: white;
 }
+background-image {
+  opacity: 0.5;
+}
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  margin: 20px;
+  padding: 100px 0px 180px 0px!important;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 0;
+  padding-bottom: 100;
   font-size: 30px;
 }
 header .header-content .header-content-inner hr {
